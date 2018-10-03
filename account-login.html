@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="stylesheets/style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="JS/bootstrap.min.js"></script>
+  </head>
+
+<body>
+	<header>
+    <nav class="main-nav">
+        <div class="nav-left">
+            <span class="hamburger-parent">
+                <i class="hamburger fas fa-bars"></i>
+            </span>
+            <span class="logo-parent">
+                <a class="logo-link" href="/">
+                    <img src="/images/online-logo.png" alt="online-logo" class="nav-logo pointer">
+                </a>
+            </span>
+        </div>
+        
+        <div class="nav-right">
+            <div class="dsp-none-sm">
+                <ul class="nav-list">
+                    <a href="https://codingblocks.com/classroom-courses">
+                        <li class="nav-items pointer">
+                            CLASSROOM COURSES
+                        </li>
+                    </a>
+
+                    <a href="https://online.codingblocks.com/">
+                        <li class="nav-items pointer">
+                            ONLINE COURSES
+                        </li>
+                    </a>
+
+                    <a href="https://hack.codingblocks.com/">
+                        <li class="nav-items pointer">
+                            HACKER BLOCKS
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="round-img">
+                <img src="/images/code-red.svg" alt="">
+            </div>
+
+            <div class="card">
+                <div class="top-offset"></div>
+                <div class="nav-info">
+                    <div class="flex-row justify-content-end">
+                        <span class="pointer red">MY PROFILE</span>
+                    </div>
+                    <div class="separator"></div>
+
+                    <div class="flex-row justify-content-end">
+                        <span class="pointer">MY ADDRESSES</span>
+                    </div>
+
+                    <div class="separator"></div>
+
+                    <div class="flex-row justify-content-end">
+                        <span class="pointer">MY APPS</span>
+                    </div>
+
+                    <div class="separator"></div>
+                    <div class="flex-row justify-content-end">
+                        <span class="pointer">MY CLIENTS</span>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="flex-row justify-content-end faded">
+                        <span class="pointer">LOGOUT</span>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+
+       
+        
+        
+    </nav>
+
+    <div class="sidebar sidebar-none">
+        <i class="close fas fa-times"></i>
+        <div class="upper-half">
+            <div class="round-img">
+                <img src="img/user.svg" alt="profile-pic">
+            </div>
+            <p>
+                Hi, User
+            </p>
+            <a href="/logout">
+                <div class="button-solid">
+                    <button>Logout</button>
+                </div>
+            </a>
+        </div>
+        <div class="lower-half">
+            <a href="https://codingblocks.com/classroom-courses">
+                <div class="para">
+                    CLASSROOM COURSES
+                </div>
+            </a>
+
+            <a href="https://online.codingblocks.com/">
+                <div class="para">
+                    ONLINE COURSES
+                </div>
+            </a>
+
+            <a href="https://hack.codingblocks.com/">
+                <div class="para">
+                    HACKER BLOCKS
+                </div>
+            </a>
+        </div>
+    </div>
+</header>
+
+<div class="login-signup">
+    <div class="card c-login">
+        <div class="heading-u-red">
+            LOGIN NOW TO GET STARTED
+        </div>
+
+        <form action="">
+            <div class="input-btn">
+                <input type="text" class="input-text icon user-bg" placeholder="Enter Username">
+                <button class="grey">Forgot?</button>
+            </div>
+
+            <div class="input-btn">
+                <input type="text" class="input-text icon fingerprint-bg" placeholder="Enter Password">
+                <button class="grey">Forgot?</button>
+            </div>
+
+            <input type="checkbox" id="remember" class="input-checkbox">
+            <label for="remember"> Remember me</label>
+
+            <div class="row">
+                <div class="button-solid">
+                    <button type="submit"> LOGIN NOW</button>
+                </div>
+
+                <div class="signup d-flex flex-column justify-content-center">
+                    New to Coding Blocks?
+                    <button class="red">SIGN UP NOW</button>
+                </div>
+            </div>
+
+            <div class="divider row align-items-center">
+                OR <span class="bg-black"></span>
+            </div>
+
+            <p class="link-heading">You may also try login with:</p>
+
+            <div class="links flex-row no-gutters justify-content-around">
+                <div class="col-2 col-sm-1">
+                    <div class="auth-link">
+                        <button class="button-circle facebook">
+                            <i class="fab fa-facebook-f fa-2x"></i>
+                        </button>
+                        <div class="link-text">FACEBOOK</div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1">
+                    <div class="auth-link">
+                        <button class="button-circle google">
+                            <i class="fab fa-google-plus-g fa-2x"></i>
+                        </button>
+                        <div class="link-text">GOOGLE</div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1">
+                    <div class="auth-link">
+                        <button class="button-circle twitter">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </button>
+                        <div class="link-text">TWITTER</div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1">
+                    <div class="auth-link">
+                        <button class="button-circle github">
+                            <i class="fab fa-github fa-2x"></i>
+                        </button >
+                        <div class="link-text">GITHUB</div>
+                    </div>
+                </div>
+
+                <div class="col-2 col-sm-1">
+                    <div class="auth-link">
+                        <button class="button-circle linkedin">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </button >
+                        <div class="link-text">LINKEDIN</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+
+
+    </div>
+</div>
+
+</body>
+
+</html>
